@@ -1,0 +1,18 @@
+:root {
+  font: 16px/1.5 system-ui, sans-serif;
+  color: #20251e;
+  background: #f6f7f2;
+  --ink: #20251e;
+  --muted: #555e51;
+  --line: #dce2d6;
+  --accent: #d2f58a;
+  --green: #365918;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body, h1, h2, h3, p { margin: 0; }
+a { color: inherit; }
+button, input { font: inherit; }
+button:not(:disabled) { cursor: pointer; }
+:focus-visible { outline: 2px solid #43672b; outline-offset: 3px; }
+svg { flex: none; vertical-align: middle; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
